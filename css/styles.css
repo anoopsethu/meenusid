@@ -5,7 +5,7 @@ body{
 }
 @media(min-width: 800px){
 	.web-only{
-		display: block;
+		display: inline;
 	}
 	.mob-only{
 		display: none;
