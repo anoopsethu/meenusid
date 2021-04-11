@@ -1,0 +1,31 @@
+body{
+	background: url('../img/bg.png') !important;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+}
+@media(min-width: 800px){
+	.web-only{
+		display: block;
+	}
+	.mob-only{
+		display: none;
+	}
+	.slide-img{
+	    width: 23rem !important;
+	}
+}
+@media(max-width: 800px){
+	.web-only{
+		display: none;
+	}
+	.mob-only{
+		display: block;
+	}
+	.slide-img{
+		width: 100% !important;
+		max-width: none !important;
+		max-height: none !important;
+	    top: -33rem !important;
+	    position: relative;
+	}
+}
